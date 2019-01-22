@@ -1,0 +1,9 @@
+<mat-toolbar color="primary" class="header-container">
+  <mat-icon (click)="gotoHome()">home</mat-icon>
+  <span class="title">{{appTitle}}</span>
+  <span class="space"></span>
+  <mat-icon (click)="onHelp()" matTooltip="New Registration">list</mat-icon>
+  <mat-icon (click)="onHelp()" matTooltip="Contacts">person</mat-icon>
+  <mat-icon (click)="onHelp()" matTooltip="Help">help</mat-icon>
+  <span class="secondary-color">{{user}}</span>
+</mat-toolbar>

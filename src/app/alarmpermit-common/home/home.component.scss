@@ -1,0 +1,19 @@
+.home-actions {
+    button {
+        margin: 0.5em;
+    }
+}
+
+.example-full-width {
+    width: 100%;
+}
+
+.login-container {
+    margin: auto;
+    max-width: 50%;
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
